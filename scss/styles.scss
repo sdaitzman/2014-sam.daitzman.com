@@ -1,0 +1,12 @@
+@import 'index';
+
+
+body {
+	background: lighten(black, 69%);
+}
+
+::selection {
+	background: firebrick;
+	color: white;
+}
+
