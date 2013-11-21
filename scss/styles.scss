@@ -1,12 +1,13 @@
 @import 'index';
+@import 'header';
+@import 'links';
 
-
-body {
-	background: lighten(black, 69%);
-}
 
 ::selection {
 	background: firebrick;
 	color: white;
 }
 
+* {
+	font: 22px "open-sans";
+}
