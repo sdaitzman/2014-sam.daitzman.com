@@ -1,0 +1,14 @@
+.nav-link {
+	padding: 12px 3px;
+	font-size: 14px;
+	color: rgb(120, 120, 120);
+	&:hover, &:focus {
+		transition: opacity 0.1s linear, color 0.1s linear;
+		color: $accent-color;
+		text-decoration: underline;
+	}
+	&:active {color: darken($accent-color, 20%)}
+}
+
+a {text-decoration: none;}
+
