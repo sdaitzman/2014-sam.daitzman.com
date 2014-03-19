@@ -1,4 +1,4 @@
-sam.daitzman.com
+# sam.daitzman.com
 ================
 
-my website. work in progress.
+My website, a work in progress, meant for sam.daitzman.com when it's complete.
