@@ -1,30 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js" type="text/javascript"></script>
-<script type="text/javascript" src="//use.typekit.net/lbt2vtw.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-<link rel="stylesheet" href="css/styles.css" />
-<link rel="prefetch" href="index.html" />
-<link rel="prefetch" href="about.html" />
-<link rel="prefetch" href="//twitter.com/sdaitzman" />	<title>sam.daitzman.com</title>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap -->
+<link href="bower_components/bootswatch/lumen/bootstrap.min.css" rel="stylesheet">
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if IE]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="css/styles.css"/>	<title>Sam Daitzman</title>
 </head>
 <body>
-	<div class="body-container">
-		<header class="global-header">
-	<a href="index.html"><header class="title">sam.daitzman.com</header></a>
-	<nav class="nav">
-		<a href="index.html" class="nav-link">Home</a>
-		<a href="about.html" class="nav-link">About</a>
-		<a href="//twitter.com/sdaitzman" class="nav-link">@sdaitzman</a>
-	</nav>
-</header>
 
-		
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/">Sam Daitzman</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav">
+				<li><a class="about" href="/about.html" data-toggle="tooltip" title="Things written about me">About</a></li>
+				<li><a class="contact" href="/contact.html">Contact</a></li>
+				<li><a class="projects" href="/projects.html">Projects</a></li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="//llamaswill.tumblr.com">Blog</a></li>
+				<li><a href="//twitter.com/sdaitzman">@sdaitzman</a></li>
+			</ul>
+		</div>
 	</div>
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-<script type="text/javascript">document.addEventListener("touchstart", function(){}, true);</script></body>
-</html>
+</nav>
+	<div class="container">
+		<div class="jumbotron">
+			<div class="page-header">
+				<h1>Sam Daitzman</h1>
+			</div>
+			<p>
+				I'm a 14-year old student who's interested in web standards, social and human rights issues, design, computer interactions, and gardening. I'm not actively up for hire but I'm always looking for interesting new ideas, so tell me if you've got any in mind!
+			</p>
+			<p>
+				<a href="projects.html" class="btn btn-primary btn-lg" role="button">Past projects</a>
+			</p>
+		</div>
+	</div>
+	
+	<footer class="footer">
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">sam.daitzman.com</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://sam.daitzman.com" property="cc:attributionName" rel="cc:attributionURL">Sam Daitzman</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</footer>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>$(".about").tooltip();</script>
+	<style type="text/css">
+		
+	 .navbar-brand {color:  #333333 !important;}
 
+	</style>
+
+</body>
+</html>
