@@ -1,0 +1,12 @@
+{
+  "sources" : [
+    "js\/scripts-ck-sourcemap-source.coffee"
+  ],
+  "mappings" : ";AAEA;AAAA;;;;GAAA;AAAA;AAAA;AAAA,EAKA;;;;mCALA,CAAA;AAWA;AAAA;;;;KAXA;AAAA,EAgBA;;;;;4w4BAhBA,CAAA;AAuBA;AAAA;;;;KAvBA;AAAA;AAAA",
+  "sourceRoot" : ".\/..\/",
+  "names" : [
+
+  ],
+  "file" : "scripts.min.js",
+  "version" : 3
+}
